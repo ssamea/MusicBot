@@ -37,4 +37,4 @@ async def exit(ctx):
     except:
         await ctx.send("이미 그 채널에서 나왔어요!")
 
-bot.run('ODQzMDM3MDEzNjE4OTgyOTMy.YJ-BZg.2HAzNjVvFU0Ctzxxm0r14r9iGQo')
+bot.run('본인의 토큰을 여기에 붙여주세용')
