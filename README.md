@@ -1,7 +1,6 @@
 # MusicBot
-## Discord for Listening Music with Python
-
-## 셀레니움을 이용한 뮤직 봇  파이썬으로 구현하기
+- Discord for Listening Music with Python
+- 셀레니움을 이용한 뮤직 봇  파이썬으로 구현하기
 
 ## 사전 필요한 준비문
 - Discord 사이트에서 개발자 메뉴에서 Bot을 생성한 후 토큰을 저장해주세요
