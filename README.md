@@ -25,4 +25,20 @@
 ![노래재생](https://user-images.githubusercontent.com/49589578/118580815-7ee34600-b7cb-11eb-9ffa-6ebeaca28980.JPG)
 ![크롤링](https://user-images.githubusercontent.com/49589578/118581523-bef6f880-b7cc-11eb-8d16-8421e467c088.JPG)
 
+## 4. 봇 노래 재생 끄기 기능
+![끄기](https://user-images.githubusercontent.com/49589578/118585371-b81fb400-b7d3-11eb-8279-ad7136ff6de7.JPG)
 
+## 5. 노래 리스트 추가 기능
+![add](https://user-images.githubusercontent.com/49589578/118585364-b655f080-b7d3-11eb-814b-3e20edbece94.JPG)
+
+## 6. 노래 리스트 삭제 기능
+![rm](https://user-images.githubusercontent.com/49589578/118585367-b6ee8700-b7d3-11eb-9a4a-d28ad4f522ad.JPG)
+
+## 7. 현재 노래 리스트 목록 출력 기능
+![list](https://user-images.githubusercontent.com/49589578/118585366-b655f080-b7d3-11eb-91bc-4445ad233927.JPG)
+
+## 8. 현재 재생 노래 제목 출력 기능
+![nowplaying](https://user-images.githubusercontent.com/49589578/118585369-b7871d80-b7d3-11eb-9cdb-988c810a7991.JPG)
+
+## 9. 현재 재생중인 노래 일시정지 기능
+![pause](https://user-images.githubusercontent.com/49589578/118585361-b5bd5a00-b7d3-11eb-94dd-15b506064c78.JPG)
