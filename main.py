@@ -309,4 +309,4 @@ async def listplay(ctx):
         else:
             await ctx.send("노래가 이미 재생되고 있어요!")
 
-bot.run('ODQzMDM3MDEzNjE4OTgyOTMy.YJ-BZg.CVXUEPKPZz4GoxWJtLMjRs065O0')
+bot.run('본인의 토큰을 여기다 적어주세요')
