@@ -46,3 +46,7 @@
 
 ## 9. 현재 재생중인 노래 일시정지 기능
 ![pause](https://user-images.githubusercontent.com/49589578/118585361-b5bd5a00-b7d3-11eb-94dd-15b506064c78.JPG)
+
+## 10. 명령어 모음말 기능
+![help](https://user-images.githubusercontent.com/49589578/119264524-8a48ce00-bc1e-11eb-9986-73bf45e63558.JPG)
+
