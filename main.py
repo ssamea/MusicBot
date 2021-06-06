@@ -10,6 +10,7 @@ from discord.utils import get
 from discord import FFmpegPCMAudio
 import asyncio
 import time
+import help
 
 bot = commands.Bot(command_prefix='!')
 user=[ ] #유저가 입력한 노래정보
@@ -439,6 +440,7 @@ async def on_reaction_add(reaction, users):
             elif str(reaction.emoji) == '\U0001F4DD':
                 await reaction.message.channel.send("플레이리스트가 나오면 생길 기능이랍니다. 추후에 올릴 영상을 기다려주세요!")
 
+
 @bot.command()
 async def Help(ctx):
     await ctx.send(embed = discord.Embed(title='도움말',description="""
@@ -459,5 +461,4 @@ async def Help(ctx):
 !init -> 목록에 추가된 모든 노래를 지웁니다.
 \n!add [노래] -> 노래를 대기열에 추가합니다.
 !rm [숫자] -> 대기열에서 입력한 숫자에 해당하는 노래를 지웁니다.""", color = 0x00ff00))
-
-bot.run('본인의 디스코드 봇을 여기에 추가해주세요')
+bot.run('ODQzMDM3MDEzNjE4OTgyOTMy.YJ-BZg.KaU9NjfOMTTDay8oMjRyx7WAkuM')
