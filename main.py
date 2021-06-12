@@ -73,6 +73,15 @@ async def exit(ctx):
 
 @bot.command()
 async def play(ctx, *, msg):
+    try:
+        global vc
+        vc= await ctx.message.author.voice.channel.connect()
+    except:
+        try:
+            await vc.move_to(ctx.message.author.voice.channel)
+
+        except:
+            await ctx.send("채널에 플레이어가 없네요...")
 
     try:
         global vc
@@ -119,7 +128,11 @@ async def play(ctx, *, msg):
         vc.play(FFmpegPCMAudio(URL, **FFMPEG_OPTIONS),after=lambda e:play_next(ctx))
 
     else:
-        await ctx.send("이미 노래가 재생 중이라 노래를 재생할 수 없어요!")
+        #await ctx.send("이미 노래가 재생 중이라 노래를 재생할 수 없어요!")
+        user.append(msg)
+        result, URLTEST=title(msg)
+        song_queue.append(URLTEST)
+        await ctx.send("이미 노래가 재생 중이라 대기열에 추가하겠습니다 !")
 
 
 @bot.command()
@@ -461,4 +474,4 @@ async def Help(ctx):
 !init -> 목록에 추가된 모든 노래를 지웁니다.
 \n!add [노래] -> 노래를 대기열에 추가합니다.
 !rm [숫자] -> 대기열에서 입력한 숫자에 해당하는 노래를 지웁니다.""", color = 0x00ff00))
-bot.run('ODQzMDM3MDEzNjE4OTgyOTMy.YJ-BZg.KaU9NjfOMTTDay8oMjRyx7WAkuM')
+bot.run('본인 디스코드 토큰 입력')
